@@ -1,0 +1,12 @@
+:l src/Newton2.hs
+import Newton2
+:l src/SimpleVec.hs
+import SimpleVec
+:l src/Mechanics1D.hs
+import Mechanics1D
+:l src/Mechanics3D.hs
+import Mechanics3D
+:l src/MultipleObjects.hs
+import MultipleObjects
+:l src/MOExamples.hs
+import MOExamples

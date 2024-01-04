@@ -1,0 +1,5 @@
+dist*
+.vscode/
+.DS_STORE
+*.png
+*.jpg
