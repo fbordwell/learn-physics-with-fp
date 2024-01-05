@@ -7,7 +7,6 @@ import Mechanics3D
 import MultipleObjects hiding (systemKE)
 import Newton2 (customLabel)
 import SimpleVec
-import qualified Vis as V
 
 twoSpringsForces :: [Force]
 twoSpringsForces =
@@ -284,3 +283,15 @@ stringInitialPluck =
     pluckEq x
       | x <= 0.51 = 0.005 / (0.51 - 0.00) * (x - 0.00)
       | otherwise = 0.005 / (0.51 - 0.65) * (x - 0.65)
+
+-- exercise 20.2
+billiardPictureColors :: MultiParticleState -> G.Picture
+billiardPictureColors (MPS sts) =
+  G.scale ppm ppm $ G.pictures $ zipWith place sts (cycle [G.blue, G.red])
+  where
+    ppm = 300 -- pixels per meteR
+    place st color = G.translate (xSt st) (ySt st) $ coloredBall color
+    xSt = realToFrac . xComp . posVec
+    ySt = realToFrac . yComp . posVec
+    coloredBall :: G.Color -> G.Picture
+    coloredBall color = G.Color color $ disk $ realToFrac ballRadius

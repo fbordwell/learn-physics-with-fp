@@ -1,3 +1,4 @@
+:set -w
 :l src/Newton2.hs
 import Newton2
 :l src/SimpleVec.hs
@@ -10,3 +11,7 @@ import Mechanics3D
 import MultipleObjects
 :l src/MOExamples.hs
 import MOExamples
+:l src/Electricity.hs
+import Electricity
+:l src/CoordinateSystems.hs
+import CoordinateSystems
