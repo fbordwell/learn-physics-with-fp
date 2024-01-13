@@ -26,10 +26,12 @@
             packages = p: [ p.learn_physics_with_fp ];
             buildInputs = [
               hspkgs.cabal-install
+              hspkgs.cabal-fmt
               hspkgs.haskell-language-server
               hspkgs.hlint
               hspkgs.ormolu
               pkgs.bashInteractive
+              pkgs.nixd
             ];
           };
           defaultPackage = pkgs.learn_physics_with_fp;

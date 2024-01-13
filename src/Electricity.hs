@@ -4,7 +4,7 @@ import Graphics.Gnuplot.Simple
 import MOExamples
 import Mechanics3D
 import MultipleObjects
-import SimpleVec
+import SimpleVec (R, Vec (xComp), iHat, (*^))
 
 type Charge = R
 
