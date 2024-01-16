@@ -5,7 +5,6 @@ import Diagrams.Prelude hiding (origin, sumV, (^/))
 import MOExamples
 import Mechanics3D
 import SimpleVec
-import SpatialMath (V3 (..))
 import qualified Vis as V
 
 data Position = Cart R R R deriving (Show)
