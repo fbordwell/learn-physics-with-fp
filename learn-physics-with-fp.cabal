@@ -3,7 +3,6 @@ name:               learn-physics-with-fp
 version:            0.1.0.0
 author:             Fischer Bordwell
 maintainer:         fbordwel@purdue.edu
-extra-source-files: CHANGELOG.md
 
 common warnings
   ghc-options: -Wall

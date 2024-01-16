@@ -1,7 +1,6 @@
 module Electricity where
 
 import Graphics.Gnuplot.Simple
-import MOExamples
 import Mechanics3D
 import MultipleObjects
 import SimpleVec (R, Vec (xComp), iHat, (*^))
