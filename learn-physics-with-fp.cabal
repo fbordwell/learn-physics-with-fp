@@ -1,8 +1,8 @@
-cabal-version:      3.0
-name:               learn-physics-with-fp
-version:            0.1.0.0
-author:             Fischer Bordwell
-maintainer:         fbordwel@purdue.edu
+cabal-version: 3.0
+name:          learn-physics-with-fp
+version:       0.1.0.0
+author:        Fischer Bordwell
+maintainer:    fbordwel@purdue.edu
 
 common warnings
   ghc-options: -Wall
@@ -10,8 +10,10 @@ common warnings
 library
   import:           warnings
   exposed-modules:
+    Charge
     CoordinateSystems
     Electricity
+    Geometry
     Mechanics1D
     Mechanics3D
     MOExamples

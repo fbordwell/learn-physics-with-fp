@@ -15,3 +15,7 @@ import MOExamples
 import Electricity
 :l src/CoordinateSystems.hs
 import CoordinateSystems
+:l src/Geometry.hs
+import Geometry
+:l src/Charge.hs
+import Charge
