@@ -17,5 +17,3 @@ import Electricity
 import CoordinateSystems
 :l src/Geometry.hs
 import Geometry
-:l src/Charge.hs
-import Charge

@@ -10,7 +10,6 @@ common warnings
 library
   import:           warnings
   exposed-modules:
-    Charge
     CoordinateSystems
     Electricity
     Geometry
